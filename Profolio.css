@@ -1,0 +1,78 @@
+body{
+    display: grid;
+    text-align: center;
+    gap: 10px;
+}
+#Navbar{
+    border: 1px solid orange;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+#nav_head{
+    margin-left: 10px;
+}
+#nav_body{
+display: flex;
+}
+#nav_body div{
+    margin-right: 20px;
+}
+
+#main{
+    display: grid;
+    border: 1px solid blue;
+    gap: 20px;
+}
+#main div{
+border: 1px solid red;
+}
+#About{
+    display: flex;
+    margin: 0 100px 0 100px;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+#About img{
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+}
+
+#about_detail{
+    display: flex;
+}
+#about_detail div{
+    margin-right: 50px;
+    text-align: start;
+    padding: 0 10px;
+}
+#Resume{
+ border: 1px solid blue;
+ color: red;
+ padding: 10px;
+}
+p{
+    font-size: 18px;
+}
+#Skills_div{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    padding: 100px;
+}
+#Project_div{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    padding: 100px;
+}
+#Statistics_div{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+#Contect_div{
+    display: flex;
+    justify-content: space-around;
+}
