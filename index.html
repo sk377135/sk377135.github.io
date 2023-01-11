@@ -1,158 +1,629 @@
-
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 
 <head>
+	<title>Suraj | FULL STACK WEB DEVELOPER</title>
+	<link rel="shortcut icon" href="https://raw.githubusercontent.com/sk377135/surajkumar/3cc4360894b99df82c395c78b6d559844dee645c/icon%20and%20image/Suraj%20kumar-ImResizer.jpg" type="image/x-icon">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+	<link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<link rel="stylesheet" href="css/aos.css">
+	<link rel="stylesheet" href="css/ionicons.min.css">
+	<link rel="stylesheet" href="css/Calender.css" />
+	<link rel="stylesheet" href="css/flaticon.css">
+	<link rel="stylesheet" href="css/icomoon.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/index.css">
 
-  <title>Profolio</title>
- <link rel="stylesheet" href="./Profolio.css">
-
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/github-calendar/2.3.1/github-calendar.min.js">
 </head>
 
-<body>
-<div id="Navbar">
-<div id="nav_head"><h2>SURAJ KUMAR</h2></div>
-<div id="nav_body">
-<div><h3>Home</h3></div>
-<div><h3>About</h3></div>
-<div><h3>Skill</h3></div>
-<div><h3>Project</h3></div>
-<div><h3>Resume</h3></div>
-<div><h3>Contect</h3></div>
-</div>
-</div>
-<div id="main">
-<div id="Home_Page">
-    <h1>
-    HI,👋
-     I AM SURAJ KUMAR<br>
-FULL STACK WEB DEVELOPER
-   </h1>
-</div>
-<div id="About">
-<div>
-<img src="https://www.shutterstock.com/image-photo/surreal-image-african-elephant-wearing-260nw-1365289022.jpg" alt="surajkumar_image">
-</div>
-<div>
-    <h1>
-        About Me
-    </h1>
-<div>
-    <p>An aspiring full-stack web developer with core knowledge of MERN stack technology. Looking forward to applying and enhancing my skills and knowledge as a developer.</p>
-</div>
-<div id="about_detail" >
-    
-    <div>
-        <p>Name:</p>
-        <p>Date of birth:</p>
-        <p>Address:</p>
-        <p>Email:</p>
-    </div>
-    <div>
-        <p>Suraj Kumar</p>
-        <p>Jan 23,1996</p>
-        <p>E-city Banglore-560100</p>
-        <p>surajkumar.sk76@gmail.com</p>
-    </div>
-
-</div>
-<div id="Resume">
-    <h2>5 Project completed</h2>
-    <button>Resume</button>
-</div>
-</div>
-</div>
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
 
-<div>
-<div>
-    <h1>My Skills</h1>
-</div>
-<div id="Skills_div">
-<div><img src="" alt="HTML 5"></div>
-<div><img src="" alt="CSS"></div>
-<div><img src="" alt="JAVASCRIPT"></div>
-<div><img src="" alt="NODE JS"></div>
-<div><img src="" alt="MONGODB"></div>
-<div><img src="" alt="REACT"></div>
-<div><img src="" alt="REDUX"></div>
-<div><img src="" alt="GITHUB"></div>
-<div><img src="" alt="HEROKU"></div>
-</div>
-</div>
+	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+		<div class="container">
+			<a class="navbar-brand" href="index.html">Suraj Kumar</a>
+			<div class="dropdown">
+				<button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton2"
+					data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Menu
+				</button>
+				<div class="dropdown-menu" style="background-color: rgb(0,0,0);" aria-labelledby="dropdownMenuButton">
+					<a class="dropdown-item" style="color: rgb(255,255,255);" href="#nameDiv">Home</a>
+					<a class="dropdown-item" style="color: rgb(255,255,255);" href="#about-section">About</a>
+					<a class="dropdown-item" style="color: rgb(255,255,255);" href="#skills-section">Skills</a>
+					<a class="dropdown-item" style="color: rgb(255,255,255);" href="#projects-section">Projects</a>
+					<!-- <a class="dropdown-item" style="color: rgb(255,255,255);" href="#blog-section">My Blog</a> -->
+					<a class="dropdown-item" style="color: rgb(255,255,255);" href="#contact-section">Contact</a>
+					<a id="downloadResume-1" class="dropdown-item" style="color: rgb(255,255,255);"
+						download="Suraj Kumar Resume" href="./Resume/Suraj -Prakash-Resume.pdf">Resume</a>
+
+				</div>
+			</div>
+			<button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse"
+				data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="true" aria-label="Toggle navigation">
+				<span class="oi oi-menu"></span> Menu
+			</button>
+
+			<div class="collapse navbar-collapse" id="ftco-nav">
+				<ul class="navbar-nav nav ml-auto">
+					<li class="nav-item"><a href="#nameDiv" class="nav-link"><span>Home</span></a></li>
+					<li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+					<li class="nav-item"><a href="#skills-section" class="nav-link"><span>Skills</span></a></li>
+					<li class="nav-item"><a href="#projects-section" class="nav-link"><span>Projects</span></a></li>
+					<!-- <li class="nav-item"><a href="#blog-section" class="nav-link"><span>My Blog</span></a></li> -->
+					<li class="nav-item"><a href="./Resume/Suraj -Prakash-Resume.pdf" class="nav-link"
+							download="Suraj Kumar Resume" id="downloadResume"><span>Resume</span></a></li>
+					<li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<section id="home-section" class="hero">
+
+	</section>
+	<div id="profileimage">
+		<img src="https://raw.githubusercontent.com/sk377135/surajkumar/3cc4360894b99df82c395c78b6d559844dee645c/icon%20and%20image/Suraj%20kumar-ImResizer.jpg" alt="">
+	</div>
+	<div id="nameDiv" class="col-md-12 text-center">
+		<h1 class="animate-charcter">Hi I'am Suraj Kumar</h1>
+		<br>
+		<h1 class="animate-charcter">Full Stack Web Developer</h1>
+	</div>
+
+	<section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
+		<div class="container">
+			<div class="row d-flex">
+				<div class="col-md-6 col-lg-5 d-flex">
+					<div class="img-about img d-flex align-items-stretch">
+						<div class="overlay"></div>
+						<div class="img d-flex align-self-stretch align-items-center"
+							style="background-image:url(https://raw.githubusercontent.com/sk377135/surajkumar/3cc4360894b99df82c395c78b6d559844dee645c/icon%20and%20image/Suraj%20kumar-ImResizer.jpg);">
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-7 pl-lg-5 pb-5">
+					<div class="row justify-content-start pb-3">
+						<div class="col-md-12 heading-section ftco-animate">
+							<h1 class="big">About</h1>
+							<h2 class="mb-4">About Me</h2>
+							<p style="margin-top: 10%;">An aspiring full-stack web developer with core knowledge of MERN
+								stack technology. Looking forward to applying and enhancing my skills and knowledge as a
+								developer.</p>
+							<ul class="about-info mt-4 px-md-0 px-2">
+								<li class="d-flex"><span>Name:</span> <span>Suraj Kumar</span></li>
+								<li class="d-flex"><span>Date of birth:</span> <span>Jan 23, 1996 </span></li>
+								<li class="d-flex"><span>Address:</span> <span>Bangalore, Karnataka</span></li>
+								<li class="d-flex"><span>Pin code:</span> <span>560100</span></li>
+								<li class="d-flex"><span>Email:</span> <span>surajkumar.sk76@gmail.com</span></li>
+								<li class="d-flex"><span>Phone: </span> <span>+91-9845600562</span></li>
+							</ul>
+						</div>
+					</div>
+					<div class="counter-wrap ftco-animate d-flex mt-md-3">
+						<div class="text">
+							<p class="mb-4">
+								<span class="number" data-number="5">5</span>
+								<span>Project completed</span>
+							</p>
+							<p><a id="downloadResume-3" href="./Resume/Suraj -Prakash-Resume.pdf"
+									class="btn btn-primary py-3 px-3" download="">Resume</a>
+								<!-- <a a href="https://drive.google.com/file/d/1qpuvn4jizWts1s77_jDTc-D3HZvcMi_Z/view?usp=sharing"
+									target="_blank" class="btn btn-primary py-3 px-3" download>Resume</a> -->
+							</p>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
 
-<div>
-<div>
-    <h1>Projects</h1>
-</div>
-<div id="Project_div">
-    <div>
-       <div><img src="" alt="Project -1"></div>
-       <div>body</div>
-    </div>
-    <div>
-        <div><img src="" alt="Project -2"></div>
-        <div>body</div>
-     </div>
-     <div>
-        <div><img src="" alt="Project -3"></div>
-        <div>body</div>
-     </div>
-     <div>
-        <div><img src="" alt="Project -4"></div>
-        <div>body</div>
-     </div>
-     <div>
-        <div><img src="" alt="Project -5"></div>
-        <div>body</div>
-     </div>
-</div>
-</div>
-<div>
+	<section class="ftco-section" id="skills-section">
+		<div class="container">
+			<div class="row justify-content-center pb-5">
+				<div class="col-md-12 heading-section text-center ftco-animate">
+					<h1 class="big big-2">Skills</h1>
+					<h2 class="mb-4">My Skills</h2>
+				</div>
+			</div>
+			<div class="skills">
+				<a class="logo_div" href="http://www.w3.org/2000/svg" rel="noopener noreferrer" target="_blank">
+					<img src="/images/icons8-html-5.svg" alt="html5 logo">
+					<h3 class="h3">HTML 5</h3>
+				</a>
 
-<div>
-    <h1>My Github Calender</h1>
-</div>
-<div><img src="" alt="GitHub Calender"></div>
+				<a class="logo_div" href="https://www.w3.org/" rel="noopener noreferrer" target="_blank">
+					<img src="/images/icons8-css3.svg" alt="CSS logo">
+					<h3 class="h3">CSS</h3>
+				</a>
 
-</div>
-<div>
+				<a class="logo_div" href="https://www.w3.org/" rel="noopener noreferrer" target="_blank">
+					<img src="/images/icons8-javascript.svg" alt="JavaScript logo">
+					<h3 class="h3">JAVASCRIPT</h3>
+				</a>
 
-    <div>
-        <h1>My Statistics</h1>
-    </div>
-    <div id="Statistics_div">
-        <div><img src="" alt="suraj github stats"></div>
-        <div><img src="" alt="Most used language"></div>
-    </div>
-    
-    </div>
+				<a class="logo_div" href="https://www.w3.org/" rel="noopener noreferrer" target="_blank">
+					<img src="/images/icons8-nodejs.svg" alt="Node JS logo">
+					<h3 class="h3">NODE JS</h3>
+				</a>
 
-<div>
-    <h1>Contect Me</h1>
-<div id="Contect_div">
-<div>
-    <div><img src="" alt="Linked-In"></div>
-    <div><p>Linked-In</p></div>
-</div>
-<div>
-    <div><img src="" alt="What's App"></div>
-    <div><p>What's App</p></div>
-</div>
-<div>
-    <div><img src="" alt="git-hub"></div>
-    <div><p>git-hub</p></div>
-</div>
-<div>
-    <div><img src="" alt="Email"></div>
-    <div><p>Email</p></div>
-</div>
-</div>
-<p>🧑‍💻🧑‍🍳 Created by suraj kumar 🧑‍💻🧑‍🍳</p>
-</div>
-</div>
+				<a class="logo_div" href="https://www.w3.org/" rel="noopener noreferrer" target="_blank">
+					<img src="/images/icons8-mongodb.svg" alt="MongoDB logo">
+					<h3 class="h3">MONGODB</h3>
+				</a>
+
+				<a class="logo_div" href="https://www.w3.org/" rel="noopener noreferrer" target="_blank">
+					<img src="/images/icons8-react-native.svg" alt="React logo">
+					<h3 class="h3">REACT</h3>
+				</a>
+
+				<a class="logo_div" href="https://www.w3.org/" rel="noopener noreferrer" target="_blank">
+					<img src="/images/icons8-redux.svg" alt="Redux logo">
+					<h3 class="h3">REDUX</h3>
+				</a>
+
+				<a class="logo_div" href="https://www.w3.org/" rel="noopener noreferrer" target="_blank">
+					<img src="/images/icons8-github.svg" alt="Github logo">
+					<h3 class="h3">GITHUB</h3>
+				</a>
+
+				<a class="logo_div" href="https://www.w3.org/" rel="noopener noreferrer" target="_blank">
+					<img src="/images/icons8-heroku.svg" alt="Heroku logo">
+					<h3 class="h3">HEROKU</h3>
+				</a>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="ftco-section ftco-project" id="projects-section">
+		<div class="container">
+			<div class="row justify-content-center pb-5">
+				<div class="col-md-12 heading-section text-center ftco-animate">
+					<h1 class="big big-2">Projects</h1>
+					<h2 class="mb-4">Projects</h2>
+				</div>
+			</div>
+			<div class="projects" style="margin-top: 5%;">
+				<div>
+					<div class="image_div">
+						<img src="./images/Blumercury.png" alt="Blumercurry_Clone_Image">
+					</div>
+					<div class="para_div">
+						<h3>Blumercury_Clone</h3>
+						<p class="projectDes">A front-end clone of Blumercury website developed by me
+							span of 6 days.i have added features like signup/login validations,filter products, sorting
+							products,
+							delete a
+							product from cart etc.</p>
+						<div>
+							<button style="font-weight: 600; font-size: 12px;">HTML</button>
+							<button style="font-weight: 600; font-size: 12px;">CSS</button>
+							<button style="font-weight: 600; font-size: 12px;">JAVASCRIPT</button>
+						</div>
+					</div>
+					<div>
+						<a href="https://github.com/udhai-20/Bluemercury" target="_blank"><button
+								class="button-84">Code</button></a>
+						<a href="https://mellow-rolypoly-03e5bc.netlify.app/index.html" target="_blank"><button
+								class="button-84">Live</button></a>
+
+
+					</div>
+				</div>
+				<div>
+					<div class="image_div">
+						<img src="./images/Freshly.png" alt="Freshly_Clone_Image">
+					</div>
+					<div class="para_div">
+						<h3>Freshly_Clone</h3>
+						<p class="projectDes">A front-end clone of Freshly website developed by team of 5 members in
+							time span of 6 days. We have added features like filter , sorting products, Login&Signup
+							validations etc.</p>
+						<div>
+							<button style="font-weight: 600; font-size: 12px;">HTML</button>
+							<button style="font-weight: 600; font-size: 12px;">CSS</button>
+							<button style="font-weight: 600; font-size: 12px;">JAVASCRIPT</button>
+						</div>
+					</div>
+					<div>
+						<a href="https://github.com/udhai-20/Freshly_Clone" target="_blank"><button
+								class="button-84">Code</button></a>
+						<a href="https://fluffy-croquembouche-14d5f2.netlify.app/" target="_blank"><button
+								class="button-84">Live</button></a>
+
+					</div>
+				</div>
+
+				<!-- //delivery app// -->
+				<div>
+					<div class="image_div">
+						<img src="./images/Delivery_apppng.png" alt="Delivery_App_Image">
+					</div>
+					<div class="para_div">
+						<h3>Food_Delivery_Clone</h3>
+						<p class="projectDes">A front-end Food_Delivery website developed by me span of 5 days..
+							i have added features like filter , sorting products,add to cart,remove from cart and
+							finally checkout
+						</p>
+						<div>
+							<button style="font-weight: 600; font-size: 12px;">HTML</button>
+							<button style="font-weight: 600; font-size: 12px;">TAILWINDCSS</button>
+							<button style="font-weight: 600; font-size: 12px;">REACT</button>
+						</div>
+					</div>
+					<div>
+						<a href="https://github.com/udhai-20/Delivery_App" target="_blank"><button
+								class="button-84">Code</button></a>
+						<a href="https://rainbow-frangollo-301238.netlify.app/" target="_blank"><button
+								class="button-84">Live</button></a>
+
+					</div>
+				</div>
+
+				<!-- //youtube -->
+				<div>
+					<div class="image_div">
+						<img src="./images/Youtube.png" alt="Youtbe_Clone_Image">
+					</div>
+					<div class="para_div">
+						<h3>Youtube_Clone</h3>
+						<p class="projectDes">A front-end simple Youtube clone developed by me span of 2 days..
+							i have added features like Searching videos and detailed view of the selected videos
+						</p>
+						<div>
+							<button style="font-weight: 600; font-size: 12px;">HTML</button>
+							<button style="font-weight: 600; font-size: 12px;">CSS</button>
+							<button style="font-weight: 600; font-size: 12px;">JAVASCRIPT</button>
+						</div>
+					</div>
+					<div>
+						<a href="https://github.com/udhai-20/Youtube_Clone/tree/main" target="_blank"><button
+								class="button-84">Code</button></a>
+						<a href="https://stalwart-crepe-6777f0.netlify.app/" target="_blank"><button
+								class="button-84">Live</button></a>
+
+					</div>
+				</div>
+
+				<!-- //inter theory -->
+
+				<div>
+					<div class="image_div">
+						<img src="./images/interTheory_clone.png" alt="Youtbe_Clone_Image">
+					</div>
+					<div class="para_div">
+						<h3>Intern Theory_Clone</h3>
+						<p class="projectDes">
+							A front-end clone of Inter Theory website was developed by a team of 3
+							people in 5 days. our project demonstrates a basic flow of pages where users can
+							signup/login, in and enroll in online courses to the cart section, where a user can search
+							and filter category-wise, for internships and jobs to start a good career.
+						</p>
+						<div>
+							<button style="font-weight: 600; font-size: 12px;">REACT</button>
+							<button style="font-weight: 600; font-size: 12px;">REDUX</button>
+							<button style="font-weight: 600; font-size: 12px;">CHAKRA UI</button>
+						</div>
+					</div>
+					<div>
+						<a href="https://github.com/udhai-20/Intern-Theory_Clone/tree/main" target="_blank"><button
+								class="button-84">Code</button></a>
+						<a href="https://interandjob.netlify.app/" target="_blank"><button
+								class="button-84">Live</button></a>
+
+					</div>
+				</div>
+				<!-- <div>
+					<div class="image_div">
+						<img src="./images/HomePage.png" alt="">
+					</div>
+					<div class="para_div">
+						<h3>JioSaavn Clone</h3>
+						<p class="projectDes">A Full-stack clone of Epic-Games webpage developed by team of 6 members in
+							time span of 6
+							days. We have added features like finding songs by language,name,artist,albums and mail
+							validations etc.</p>
+						<div>
+							<button>MongoDB</button>
+							<button>express.js</button>
+							<button>React</button>
+							<button>Node.js</button>
+						</div>
+					</div>
+					<div>
+						<a href="https://github.com/tushar8342/JioSaavn-clone" target="_blank"><button
+								class="button-84">Code</button></a>
+						<a href="https://jiosaavnclone.netlify.app/" target="_blank"><button
+								class="button-84">Live</button></a>
+
+					</div>
+				</div>
+
+				<div>
+					<div class="image_div">
+						<img src="./images/Tinde.png" alt="">
+					</div>
+					<div class="para_div">
+						<h3>Tinde Chat</h3>
+						<p class="projectDes">A Full-stack project Tinde Chat webpage developed by team of 3 members in
+							time span of 2
+							days. We have added features like authentication authorization, instant chatting, single
+							chatting and group chatting</p>
+						<div>
+							<button>MongoDB</button>
+							<button>express.js</button>
+							<button>React</button>
+							<button>Node.js</button>
+							<button>Socket.io</button>
+
+						</div>
+					</div>
+					<div>
+						<a href="https://github.com/sathish-02/Tinde-Chat" target="_blank"><button
+								class="button-84">Code</button></a>
+						<a href="https://mern-tinde-chater.herokuapp.com/" target="_blank"><button
+								class="button-84">Live</button></a>
+
+					</div> -->
+			</div>
+
+
+		</div>
+		</div>
+	</section>
+	<!-- //github// -->
+	<div class="containers">
+		<div class="row justify-content-center pb-5">
+			<div class="col-md-12 heading-section text-center ftco-animate">
+				<h1 class="big big-2">GitHub</h1>
+				<h2 class="mb-4">My Github Calender</h2>
+			</div>
+		</div>
+		<!-- <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
+		</script> -->
+
+		<!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
+		<!-- <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" /> -->
+
+		<!-- Prepare a container for your calendar. -->
+		<div class="calendar">
+			<!-- Loading stuff -->
+			Loading the data just for you.
+		</div>
+
+		<!-- <script>
+			GitHubCalendar(".calendar", "udhai-20");
+
+			// or enable responsive functionality:
+			GitHubCalendar(".calendar", "udhai-20", { responsive: true });
+
+			// Use a proxy
+			GitHubCalendar(".calendar", "udhai-20", {
+				proxy(username) {
+					return fetch(`https://your-proxy.com/github?user=${username}`)
+				}
+			}).then(r => r.text())
+		</script> -->
+	</div>
+	<br />
+	<br />
+	<div class="containers_1">
+		<div class="row justify-content-center pb-5">
+			<div class="col-md-12 heading-section text-center ftco-animate">
+				<h1 class="big big-2">GitHub</h1>
+				<h2 class="mb-4">My Statistics</h2>
+			</div>
+		</div>
+		<div class="state">
+			<a href="https://github.com/udhai-20/github-readme-stats"><img alt="7oSkaaa's Github Stats"
+					src="https://camo.githubusercontent.com/c3c10930656fac7dd88f83a971b9b3e998b87f92a498421b82e22fca29e99f85/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170693f757365726e616d653d736b3337373133352673686f775f69636f6e733d74727565266c6f63616c653d656e"
+					height=" 200px" /></a>
+			<br />
+			<br />
+			&nbsp;
+			<img src="https://github-readme-stats.vercel.app/api/top-langs?username=udhai-20&amp;show_icons=true&amp;theme=dark&amp;title_color=fb8d0e&amp;text_color=fcfcfc&amp;locale=en&amp;layout=compact"
+				alt="udhai-20" height="200px" />
+			<br />
+
+		</div>
+	</div>
+
+
+	<!-- <section class="ftco-section" id="blog-section">
+		<div class="container">
+			<div class="row justify-content-center mb-5 pb-5">
+				<div class="col-md-7 heading-section text-center ftco-animate">
+					<h1 class="big big-2">Blog</h1>
+					<h2 class="mb-4">Our Blog</h2>
+				</div>
+			</div>
+			<div class="blogs">
+				<div class="blog">
+					<div class="blog-entry justify-content-end">
+						<a href="" target="_blank"> <img
+								src="https://media.istockphoto.com/photos/data-scientists-male-programmer-using-laptop-analyzing-and-developing-picture-id1295900106?k=20&m=1295900106&s=612x612&w=0&h=hDkQP1a9dUo4Esv8iMyVlEnP4nfN2mwM5LdtPW9M8zo="
+								class="image">
+							</img></a>
+						<div class="text mt-3 float-right d-block">
+							<div class="d-flex align-items-center mb-3 meta">
+								<p class="mb-0">
+									<span class="mr-2">Jun 2022</span>
+								</p>
+							</div>
+							<h3 class="heading"><a>A clone of Bluemercury website</a></h3>
+							<p>A first step towards my dream</p>
+						</div>
+					</div>
+				</div>
+				<div class="blog">
+					<div class="blog-entry justify-content-end">
+						<a href="" target="_blank"> <img
+								src="https://media.istockphoto.com/photos/data-scientists-male-programmer-using-laptop-analyzing-and-developing-picture-id1295900106?k=20&m=1295900106&s=612x612&w=0&h=hDkQP1a9dUo4Esv8iMyVlEnP4nfN2mwM5LdtPW9M8zo="
+								class="image">
+							</img></a>
+						<div class="text mt-3 float-right d-block">
+							<div class="d-flex align-items-center mb-3 meta">
+								<p class="mb-0">
+									<span class="mr-2">Jun 2022</span>
+								</p>
+							</div>
+							<h3 class="heading"><a>A clone of Bluemercury website</a></h3>
+							<p>A first step towards my dream</p>
+						</div>
+					</div>
+				</div>
+				<div class="blog">
+					<div class="blog-entry justify-content-end">
+						<a href="" target="_blank"> <img
+								src="https://media.istockphoto.com/photos/data-scientists-male-programmer-using-laptop-analyzing-and-developing-picture-id1295900106?k=20&m=1295900106&s=612x612&w=0&h=hDkQP1a9dUo4Esv8iMyVlEnP4nfN2mwM5LdtPW9M8zo="
+								class="image">
+							</img></a>
+						<div class="text mt-3 float-right d-block">
+							<div class="d-flex align-items-center mb-3 meta">
+								<p class="mb-0">
+									<span class="mr-2">Jun 2022</span>
+								</p>
+							</div>
+							<h3 class="heading"><a>A clone of Bluemercury website</a></h3>
+							<p>A first step towards my dream</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section> -->
+
+	<section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+		<div class="container">
+			<div class="row justify-content-center mb-5 pb-3">
+				<div class="col-md-7 heading-section text-center ftco-animate">
+					<h1 class="big big-2">Contact</h1>
+					<h2 class="mb-4">Contact Me</h2>
+				</div>
+			</div>
+
+			<div class="row d-flex contact-info mb-5">
+				<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+					<div class="align-self-stretch box p-4 text-center">
+						<div class="icon d-flex align-items-center justify-content-center">
+							<a href="https://www.linkedin.com/in/suraj-kumar-887664b6/" target="_blank"><span
+									class="icon-linkedin-square"></span></a>
+						</div>
+						<h3 class="mb-4">Linkedin</h3>
+						<p><a href="https://www.linkedin.com/in/suraj-kumar-887664b6/" target="_blank">Suraj 
+								Kumar</a>
+						</p>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+					<div class="align-self-stretch box p-4 text-center">
+						<div class="icon d-flex align-items-center justify-content-center">
+							<a href="https://wa.me/9845600562?text=" target="_blank"><span class="icon-whatsapp"></span></a>
+						</div>
+						<h3 class="mb-4">WhatsApp</h3>
+						<p><a href="https://wa.me/9845600562?text=" target="_blank">+91 9845600562</a></p>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+					<div class="align-self-stretch box p-4 text-center">
+						<div class="icon d-flex align-items-center justify-content-center">
+							<a href="mailto:Suraj prakash122@gmail.com" target="_blank"><span
+									class="icon-paper-plane"></span></a>
+						</div>
+						<h3 class="mb-4">Email Address</h3>
+						<p><a href="mailto:surajkumar.sk76@gmail.com" target="_blank">surajkumar.sk76@gmail.com</a>
+						</p>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+					<div class="align-self-stretch box p-4 text-center">
+						<div class="icon d-flex align-items-center justify-content-center">
+							<a href="https://github.com/sk377135" target="_blank"><span class="icon-github"></span></a>
+						</div>
+						<h3 class="mb-4">GitHub</h3>
+						<p><a href="https://github.com/sk377135" target="_blank">Suraj Kumar</a></p>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<div style="text-align: center;">
+		<h6>Created By 👨‍💻Suraj Kumar 👨‍💻</h6>
+	</div>
+
+
+	<!-- loader -->
+	<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
+			<circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+			<circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+				stroke="#F96D00" />
+		</svg></div>
+
+
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery-migrate-3.0.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script>
+	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="js/jquery.stellar.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/aos.js"></script>
+	<script src="js/jquery.animateNumber.min.js"></script>
+	<script src="js/scrollax.min.js"></script>
+	<script src="js/main.js"></script>
+	<script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
+	</script>
+	<script>
+		let el = document.getElementById("downloadResume")
+		console.log('el :', el)
+		if (el) {
+			el.addEventListener("click", () => {
+				console.log("check")
+				window.open("https://drive.google.com/file/d/1qpuvn4jizWts1s77_jDTc-D3HZvcMi_Z/view?usp=sharing")
+			})
+		}
+	</script>
+	<script>
+		let e1l = document.getElementById("downloadResume-1")
+		console.log('el :', el)
+		if (e1l) {
+			e1l.addEventListener("click", () => {
+				console.log("check")
+				window.open("https://drive.google.com/file/d/1qpuvn4jizWts1s77_jDTc-D3HZvcMi_Z/view?usp=sharing")
+			})
+		}
+	</script>
+	<script>
+		let e12 = document.getElementById("downloadResume-3")
+		console.log('el :', el)
+		if (e12) {
+			e12.addEventListener("click", () => {
+				console.log("check")
+				window.open("https://drive.google.com/file/d/1qpuvn4jizWts1s77_jDTc-D3HZvcMi_Z/view?usp=sharing")
+			})
+		}
+	</script>
+	<script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
+	</script>
+	<script>
+		GitHubCalendar(".calendar", "udhai-20", { responsive: true });
+	</script>
+
+
 </body>
-<script src="/profolio/Profolio.js"></script>
+
 </html>

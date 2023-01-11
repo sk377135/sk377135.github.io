@@ -28,8 +28,9 @@ display: flex;
 border: 1px solid red;
 }
 #About{
+    margin: auto;
     display: flex;
-    margin: 0 100px 0 100px;
+    margin: 0 100px 0 50px;
     gap: 50px;
     margin-bottom: 20px;
 }
@@ -56,10 +57,15 @@ p{
     font-size: 18px;
 }
 #Skills_div{
+    margin: 0 300px 0 300px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    gap: 10px;
+    gap: 200px;
     padding: 100px;
+}
+#Skills_div img{
+    width: 50%;
+    height: 50%;
 }
 #Project_div{
     display: grid;
@@ -72,6 +78,7 @@ p{
     justify-content: space-around;
     padding: 50px;
 }
+
 #Contect_div{
     display: flex;
     justify-content: space-around;
